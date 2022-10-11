@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 15px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+h1{
+    font-weight: 200px;
+    margin-top: 50px;
+    
+    line-height: 5px;
+}
+a{
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    color: #f205e28b;
+    transition: 0.3s;
+}
+#inscre{
+    border: 2px solid #f205e28b;
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscre:hover{
+    background-color: #F205E2;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: #F205E2;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+img{
+    width: 410px;
+    margin-left: 150px;
+    transition: 1.5s;
+    opacity: 0.3;
+}
+img:hover{
+    
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 1.0;
+    
+}
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 70%;
+    
+}
+input{
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 15px;
+    height: 15px;
+    border: none;
+    font-size: 15px;
+}
+#submit{
+    width: 50%;
+    color: white;
+    background-color: #F205E2;
+    font-weight: bold;
+    height: 50px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+#submit{
+    cursor: pointer;
+}
+article{
+
+}
